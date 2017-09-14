@@ -1,24 +1,15 @@
-# README
+# Curated Concierge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Is a more than just a job board for newbie tech designers and devs its a place for your work to shine and be noticed.
 
-Things you may want to cover:
+Functionality include but not limited to:
 
-* Ruby version
+* Sign up/Sign in
 
-* System dependencies
+* Employers let you know they're interested based of skillset and not experience level
 
-* Configuration
+* Options of type of position sought (intern, full time, contract, freelance) and more...
 
-* Database creation
+Eventually you will have the ability to:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Sign up via Linkedin

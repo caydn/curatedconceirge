@@ -38,6 +38,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -51,3 +52,22 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :test do
+  gem 'database_cleaner'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+end
+
+gem 'devise' # User Authentication
+gem 'figaro'  # Keeps your API & AWS keys secure
+gem 'pundit' # Authorization
+
+gem 'kaminari' # Pagination
+gem 'bootstrap', '~> 4.0.0.beta' # Bootstrap
+gem 'simple_form' # Easy Form creator that works with Bootstrap
+gem 'font-awesome-rails' # Icons
+
+gem 'omniauth-facebook' #Facebook Login
+gem 'omniauth-linkedin-oauth2' #Linkedin Login
+gem 'omniauth-twitter' #Twitter Login
